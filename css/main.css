@@ -97,7 +97,7 @@ body {
     display: none;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 607px) {
     .mgl30{
         margin-left: 8px;
     }
@@ -139,4 +139,7 @@ body {
         box-shadow: 0px 0px 32px -6px rgba(0,0,0,0.71);
         background-color: white;
     }
+}
+.nobull {
+    list-style-type: none;
 }
