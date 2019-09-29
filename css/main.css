@@ -1,106 +1,222 @@
-@import url('https://fonts.googleapis.com/css?family=PT+Sans&display=swap');
-body {
-    font-family: 'PT Sans';
+body{
+
+font-family: 'Nunito Sans', sans-serif;
+background-color: #5b5b5b;
 }
-.bg {
-    height: 120px;
+.bg{
+    height: 50vh;
     width: 100%;
-    background-color: rgb(92, 141, 221);
-}
-.container-first {
-    -webkit-box-shadow: 0px 0px 32px -6px rgba(0,0,0,0.71);
-    -moz-box-shadow: 0px 0px 32px -6px rgba(0,0,0,0.71);
-    box-shadow: 0px 0px 32px -6px rgba(0,0,0,0.71);
-    background-color: white;
-}
-.container-first-footer{
-    background-color: rgb(92, 141, 221);
-    height: 30px;
-    padding-right: 5px;  
-    display: flex;
-    align-items: center;
-    justify-content: flex-end;
-    margin-top: -6px;
-}
-
-.container-box {
-    -webkit-box-shadow: 0px 0px 32px -6px rgba(0,0,0,0.71);
-    -moz-box-shadow: 0px 0px 32px -6px rgba(0,0,0,0.71);
-    box-shadow: 0px 0px 32px -6px rgba(0,0,0,0.71);
-    background-color: white;
-    margin-top: 30px;
-}
-.container-box-header{
-    height: 60px;
-    padding-left: 30px;  
-    padding-top: 15px;
-}
-.container-box-header h3{
-    color: white; text-align: center;
-}
-.container-box-header img{
-    position: absolute;
-}
-
-.color-education{
-    background-color: #009875;
-}
-.color-intrests{
-    background-color: #56b269;
-}
-.color-research{
-    background-color: #52be9a;
-}
-.color-software{
-    background-color: #7276d7;
-}
-.color-experiences{
-    background-color: #a972d7;
-}
-.color-language{
-    background-color: #d872a5;
-}
-.color-experiences-footer{
-    background-color: #fad284;
-}
-.container-first-footer img{
-    height: 16px;
-    margin-right: 9px;
-}
-.profile-img{
+    background-image: url(../assets/wall.jpg);
     background-size: cover;
-    background-repeat: no-repeat;
+}
+#vcard{
+    margin-top: -35vh;
+    background-color: #212529;
+    -webkit-box-shadow: 0px 10px 13px -7px #000000, -50px -50px 0px -30px rgba(0,0,0,0); 
+    box-shadow: 0px 10px 13px -7px #000000, -50px -50px 0px -30px rgba(0,0,0,0);
+    border-radius: 8px;
+}
+#workcard{
+    padding: 5px;
+    background-color: #212529;
+    -webkit-box-shadow: 0px 10px 13px -7px #000000, -50px -50px 0px -30px rgba(0,0,0,0); 
+    box-shadow: 0px 10px 13px -7px #000000, -50px -50px 0px -30px rgba(0,0,0,0);
+    border-radius: 8px;
+}
+#vcard-footer{
+    background-color: white;
+    -webkit-box-shadow: 0px 10px 13px -7px #000000, -50px -50px 0px -30px rgba(0,0,0,0); 
+    box-shadow: 0px 10px 13px -7px #000000, -50px -50px 0px -30px rgba(0,0,0,0);
+}
+.devider{
+    width: 100%;
+    height: 6px;
+    background-color: rgb(118, 205, 226);
 }
 
-.mgt-32{
-    margin-top: -32px;
+.title{
+    font-weight: normal;
+
+font-size: xx-large;
 }
-.mgt-10{
-    margin-top: -10px;
+.white{
+    color: white;
+}
+.rowtitle{
+    color: #c9bd9e;
+    margin-top: 12px;
+
+
+font-weight: bolder;
+
+font-size: larger;
+
+letter-spacing: 3px;
+}
+.profile{
+    width: inherit;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+}
+
+.downloadcv{
+    background-image: linear-gradient(to right, #D1913C 0%, rgb(209, 162, 101) 100%);
+    box-shadow: 0 0 30px 1px rgba(255, 255, 255, 0.1);
+    color: white;
+    padding: 5px;
+        padding-top: 5px;
+    text-align: center;
+    margin-right: 30px;;
+    width: 160px;
+    margin-left: auto;
+    height: 48px;
+    
+    border-radius: 50px;
+    
+    padding-top: 12px;
+}
+.rowitem{
+    background-color: #323232; 
+    margin-top: 7vh;
+    color: #C9BD9E;
+}
+.bgc{
+    background-color: #323232; 
+}
+
+.downloadcv:focus{
+    box-shadow: 0 0 0 2px rgba(2,117,216,.25);
+}
+.padding15{
+    padding: 15px;
+}
+.padding5{
+    padding: 5px;
 }
 .mgt15{
     margin-top: 15px;
 }
-.mgt10{
-    margin-top: 15px;
+.mgt30{
+    margin-top: 30px;
 }
-.mgl30{
-    margin-left: 30px;
+.mgt60{
+    margin-top: 60px;
 }
-.mgl50{
-    margin-left: 50px;
+.mgt50{
+    margin-top: 50px;
 }
-.mgl70{
-    margin-left: 70px;
+.mgl15{
+    margin-left: 15px;
 }
-.mgl90{
-    margin-left: 90px;
+
+/* Element | http://localhost/git/Adelghaenian/# */
+
+.title {
+    color: white;
+  }
+  
+  /* Element | http://localhost/git/Adelghaenian/# */
+  
+  .mgt50 > h4:nth-child(2) {
+    color: rgb(168, 155, 120);
+  }
+  
+  /* Element | http://localhost/git/Adelghaenian/ */
+  
+  .mgt50 > hr:nth-child(3) {
+    /* color: ; */
+    background-color: #5f5c5c;
+  }
+  
+  /* Element | http://localhost/git/Adelghaenian/ */
+  
+  .mgt50 {
+    color: rgb(209, 209, 209);
+  }
+  .secondcolor {
+    color: rgb(209, 209, 209);
+  }
+  .colorprimary {
+    color: #c9bd9e;
+  }
+  .colorprimarybg {
+    background-color: #c9bd9e;
+  }
+  /* Element | http://localhost/git/Adelghaenian/ */
+  
+  .col-md-7 > hr:nth-child(2) {
+    background-color: gray;
+  }
+  
+  /* main.css | http://localhost/git/Adelghaenian/css/main.css */
+  
+  .card{
+    border-radius: 4px;
+    background: #fff;
+    box-shadow: 0 6px 10px rgba(0,0,0,.08), 0 0 6px rgba(0,0,0,.05);
+      transition: .3s transform cubic-bezier(.155,1.105,.295,1.12),.3s box-shadow,.3s -webkit-transform cubic-bezier(.155,1.105,.295,1.12);
+  padding: 14px 80px 18px 36px;
+  cursor: pointer;
 }
+
+.card:hover{
+     transform: scale(1.05);
+  box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
+}
+
+.card h3{
+  font-weight: 600;
+}
+
+.card img{
+  position: absolute;
+  top: 20px;
+  right: 15px;
+  max-height: 120px;
+}
+
+.card-1{
+    min-width: 300px;
+  background-image: url(../assets/dev.png);
+      background-repeat: no-repeat;
+    background-position: right;
+    background-size: 80px;
+}
+
+.card-2{
+    min-width: 300px;
+   background-image: url(../assets/design.png);
+      background-repeat: no-repeat;
+    background-position: right;
+    background-size: 80px;
+}
+
+.card-3{
+    min-width: 300px;
+   background-image: url(../assets/msc.png);
+      background-repeat: no-repeat;
+    background-position: right;
+    background-size: 80px;
+}
+
+@media(max-width: 990px){
+  .card{
+    margin: 20px;
+  }
+} 
 .circular-profile-img{
     display: none;
 }
-
-@media only screen and (max-width: 607px) {
+.profile{
+    display: block;
+}
+@media only screen and (max-width: 1000px) {
+    .downloadcv{
+        margin-bottom: 15px;
+    }
+    .profile{
+        display: none;
+    }
     .mgl30{
         margin-left: 8px;
     }
@@ -142,7 +258,4 @@ body {
         box-shadow: 0px 0px 32px -6px rgba(0,0,0,0.71);
         background-color: white;
     }
-}
-.nobull {
-    list-style-type: none;
 }
